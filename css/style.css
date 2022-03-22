@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #f6f8f9;
+    background-color: #eeeeee;
 }
 /* end regole generali css */
 /* stile Header */
@@ -41,6 +41,9 @@ body {
     margin: 20px 0 10px 0;
     padding: 7px 10px;
 }
+#content-button {
+    border-radius: 5px 5px 0 0;
+}
 #task-button {
     background-color: #47adf1;
     border: 1px solid #47adf1;
@@ -56,6 +59,11 @@ body {
 }
 /* end sezione button */
 /*  section task */
+#task-list {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border-radius:0 0 5px 5px ;
+}
 .schedule {
     padding-top: 40px;
 }
@@ -65,8 +73,19 @@ body {
 }
 
 .circle-green {
-    border: 1px solid #00ff88;
-    color: #00ff88;
+    border: 1px solid #00c468;
+    color: #00c468;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+.circle-red {
+    border: 1px solid #ff0000;
+    color: #ff0000;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
@@ -78,10 +97,13 @@ body {
 .task {
     margin-left: 10px;
 }
+.row {
+    margin: 20px 0;
+}
 /* labels task */
 .labels {
     padding: 5px 7px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .labels.editorial {
@@ -115,7 +137,7 @@ body {
 }
 
 .labels.sales{
-    background-color: ##b0c926;
+    background-color: #b0c926;
     color: #fff;
     font-size: 10px;
 }

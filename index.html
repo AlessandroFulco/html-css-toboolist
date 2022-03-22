@@ -17,7 +17,7 @@
     <!-- corpo principale -->
     <main>
         <!-- sezione per button -->
-        <section class="content-main">
+        <section class="content-main" id="content-button">
             <button class="button" id="task-button">
                 Add Task
             </button>
@@ -28,18 +28,81 @@
         </section>
         <!-- end button -->
         <!-- sezione main content -->
-        <section class="content-main" >
+        <section class="content-main" id="task-list">
+            <!-- newtask -->
             <article class="schedule">
                 <h2>
                     <span class="triangle">&#9660;</span>
                     New Task
                 </h2>
-                <span class="circle-green">	&#10003;</span>
-                <span class="task">Quarterly Newsletter</span>
-                <span class="labels editorial">Editorial</span>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Quarterly Newsletter</span>
+                    <span class="labels editorial">Editorial</span>
+                </div>
             </article>
-
-
+            <!-- today -->
+            <article class="schedule">
+                <h2>
+                    <span class="triangle">&#9660;</span>
+                    Today
+                </h2>
+                <!-- task  -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Recruiting blog post</span>
+                    <span class="labels editorial">Editorial</span>
+                </div>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Mobile app launch </span>
+                    <span class="labels q1goals">Q1 Goals</span>
+                </div>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-red">	&#10005;</span>
+                    <span class="task">Interview John H.</span>
+                    <span class="labels recruiting">Recruiting</span>
+                </div>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Summit update to mobile storefronts</span>
+                    <span class="labels mobile">Mobile</span>
+                </div>
+            </article>
+            <!-- upcoming -->
+            <article class="schedule">
+                <h2>
+                    <span class="triangle">&#9660;</span>
+                    Upcoming
+                </h2>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-red">	&#10005;</span>
+                    <span class="task">Schedule meeting with Alex</span>
+                </div>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Hompage refresh</span>
+                    <span class="labels website">website</span>
+                </div>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Onboard new Sales team members</span>
+                    <span class="labels sales">Sales</span>
+                </div>
+                <!-- task -->
+                <div class="row">
+                    <span class="circle-green">	&#10003;</span>
+                    <span class="task">Review editorial calendar</span>
+                    <span class="labels editorial">Editorial</span>
+                </div>
+            </article>
         </section>
     </main>
 </body>
