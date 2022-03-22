@@ -26,13 +26,17 @@ body {
 /* end stile header */
 
 /* stile main */
-/* sezione button */
+/* general section main */
 .content-main {
     background-color: #fff;
     width: 75%;
     margin: 0 auto;
+    margin-bottom: 3px;
     padding-left: 50px;
 }
+/* end general section main */
+
+/* section main button */
 .button {
     margin: 20px 0 10px 0;
     padding: 7px 10px;
@@ -49,4 +53,9 @@ body {
     border: 1px solid #bdbdbd;
     border-radius: 5px;
     color: #bdbdbd;
+}
+/* end sezione button */
+/*  section task */
+.schedule {
+    padding-top: 40px;
 }
