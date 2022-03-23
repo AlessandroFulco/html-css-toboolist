@@ -104,40 +104,30 @@ body {
 .labels {
     padding: 5px 7px;
     border-radius: 8px;
+    color: #fff;
+    font-size: 10px;
 }
 
 .labels.editorial {
     background-color: #47adf1;
-    color: #fff;
-    font-size: 10px;
 }
 
 .labels.q1goals {
     background-color: #9c72e4;
-    color: #fff;
-    font-size: 10px;
 }
 
 .labels.recruiting{
     background-color: #64c0a9;
-    color: #fff;
-    font-size: 10px;
 }
 
 .labels.mobile{
     background-color: #f29e33;
-    color: #fff;
-    font-size: 10px;
 }
 
 .labels.website{
     background-color: #d863a1;
-    color: #fff;
-    font-size: 10px;
 }
 
 .labels.sales{
     background-color: #b0c926;
-    color: #fff;
-    font-size: 10px;
 }
