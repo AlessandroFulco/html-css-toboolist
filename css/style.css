@@ -108,26 +108,26 @@ body {
     font-size: 10px;
 }
 
-.labels.editorial {
+.labels#editorial {
     background-color: #47adf1;
 }
 
-.labels.q1goals {
+.labels#q1goals {
     background-color: #9c72e4;
 }
 
-.labels.recruiting{
+.labels#recruiting{
     background-color: #64c0a9;
 }
 
-.labels.mobile{
+.labels#mobile{
     background-color: #f29e33;
 }
 
-.labels.website{
+.labels#website{
     background-color: #d863a1;
 }
 
-.labels.sales{
+.labels#sales{
     background-color: #b0c926;
 }
